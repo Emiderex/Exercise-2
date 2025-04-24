@@ -8,7 +8,6 @@
   --span-color: #1a8754;
 }
 
-/* Reset some defaults */
 * {
   margin: 0;
   padding: 0;
@@ -24,7 +23,6 @@ main {
   flex-direction: column;
 }
 
-/* Top Section */
 .container-1 {
   background-color: var(--bg-color1);
   width: 350px;
@@ -50,7 +48,6 @@ main {
   font-weight: 600;
 }
 
-/* Bottom Section */
 .container-2 {
   background-color: var(--bg-color2);
   padding: 80px 20px;
