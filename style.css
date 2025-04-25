@@ -25,10 +25,17 @@ main {
 
 .container-1 {
   background-color: var(--bg-color1);
-  width: 350px;
-  margin: 0;
-  margin-left: 29%;
-  padding: 90px 0px 90px 0px;
+  padding: 90px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -10%;
+}
+
+.outerbox-1 {
+  width: 30%;
+  max-width: 670px;
+  padding-left: 0px;
 }
 
 .container-1 h2 {
